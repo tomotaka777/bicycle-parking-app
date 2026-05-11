@@ -6,6 +6,7 @@ import { Bike, MapPin, CheckCircle2, AlertTriangle, XCircle, ArrowUp, ArrowDown,
 import { firebaseClient } from "@/lib/firebaseClient";
 import dynamic from "next/dynamic";
 import useUserLocation, { calcDistance, formatDistance } from "@/hooks/useUserLocation";
+import QRCode from "react-qr-code";
 
 // Dynamically import the map to avoid SSR issues with Leaflet
 const SignageMap = dynamic(() => import("@/components/parking/SignageMap"), {
@@ -186,13 +187,8 @@ export default function SignagePage() {
         </div>
         <div className="bg-white p-2 rounded-lg text-center shadow-lg">
           <p className="text-[10px] text-gray-800 font-bold mb-1">詳細はこちら</p>
-          <div className="w-20 h-20 bg-gray-200 grid grid-cols-4 grid-rows-4 gap-0.5 p-1">
-             {[...Array(16)].map((_, i) => (
-                <div key={i} className={`bg-black ${Math.random() > 0.5 ? 'opacity-100' : 'opacity-0'}`}></div>
-             ))}
-             <div className="absolute w-6 h-6 bg-black top-2 left-2 flex items-center justify-center"><div className="w-3 h-3 bg-white"></div></div>
-             <div className="absolute w-6 h-6 bg-black top-2 right-2 flex items-center justify-center"><div className="w-3 h-3 bg-white"></div></div>
-             <div className="absolute w-6 h-6 bg-black bottom-2 left-2 flex items-center justify-center"><div className="w-3 h-3 bg-white"></div></div>
+          <div className="w-20 h-20 bg-white flex items-center justify-center">
+            <QRCode value="https://bicycle-parking-app.vercel.app/" size={80} />
           </div>
         </div>
       </header>
