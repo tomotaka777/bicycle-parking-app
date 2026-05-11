@@ -22,7 +22,6 @@ const MapComponent = dynamic(() => import("@/components/parking/MapComponent"), 
 
 export default function MapPage() {
   const { location: userLocation, error: locationError } = useUserLocation();
-  const [showHeatmap, setShowHeatmap] = useState(false);
   const [lots, setLots] = useState<any[]>([]);
   const queryClient = useQueryClient();
 
@@ -87,24 +86,6 @@ export default function MapPage() {
           </motion.p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          {/* Admin Heatmap Toggle */}
-          <button
-            onClick={() => setShowHeatmap(!showHeatmap)}
-            className={`flex items-center gap-2 px-4 py-2 border rounded-xl text-sm font-medium transition-all ${
-              showHeatmap 
-                ? "bg-purple-50 border-purple-200 text-purple-700" 
-                : "bg-card text-muted-foreground hover:bg-muted/50"
-            }`}
-          >
-            <Layers className={`w-4 h-4 ${showHeatmap ? "text-purple-600" : ""}`} />
-            <span>人流ヒートマップ</span>
-            {showHeatmap && (
-              <span className="ml-1 px-1.5 py-0.5 rounded text-[10px] bg-purple-100 text-purple-800">
-                管理者
-              </span>
-            )}
-          </button>
-
           {userLocation && (
             <div className="flex items-center gap-1.5 px-3 py-2 bg-blue-50 border border-blue-200 rounded-xl text-xs font-medium text-blue-600">
               <Navigation className="w-3.5 h-3.5" />
@@ -130,7 +111,6 @@ export default function MapPage() {
           <MapComponent 
             lots={lotsWithCoords} 
             userLocation={userLocation} 
-            showHeatmap={showHeatmap}
           />
         )}
       </motion.div>

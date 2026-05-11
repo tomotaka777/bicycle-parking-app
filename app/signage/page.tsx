@@ -79,36 +79,27 @@ export default function SignagePage() {
     };
   }, [queryClient]);
 
-  const baseLot = lots.find(l => l.id === "signage_current") || { 
-    id: "signage_current",
-    name: "グランフロント北館駐輪場",
-    current_count: 0, 
-    total_capacity: 1,
-    latitude: 34.705876,
-    longitude: 135.494447
-  };
-
-  const currentLot = {
-    ...baseLot,
-    latitude: location ? location.lat : baseLot.latitude,
-    longitude: location ? location.lng : baseLot.longitude,
-    name: location ? "あなたの現在地" : baseLot.name,
-  };
-
-  // Calculate 4 closest lots excluding current location
-  const closestLots = useMemo(() => {
-    if (!lots.length || !currentLot.latitude) return [];
+  // Calculate distances for all lots from current location
+  const lotsWithDistance = useMemo(() => {
+    if (!lots.length) return [];
     
-    const others = lots.filter(l => l.id !== "signage_current" && l.latitude);
-    const withDistance = others.map(lot => {
-      const dist = calcDistance(currentLot.latitude, currentLot.longitude, lot.latitude, lot.longitude);
-      const bearing = calcBearing(currentLot.latitude, currentLot.longitude, lot.latitude, lot.longitude);
+    const lat = location ? location.lat : 34.705876;
+    const lng = location ? location.lng : 135.494447;
+
+    const withDistance = lots.filter(l => l.latitude).map(lot => {
+      const dist = calcDistance(lat, lng, lot.latitude, lot.longitude);
+      const bearing = calcBearing(lat, lng, lot.latitude, lot.longitude);
       return { ...lot, dist, bearing };
     });
     
     withDistance.sort((a, b) => a.dist - b.dist);
-    return withDistance.slice(0, 4);
-  }, [lots, currentLot]);
+    return withDistance;
+  }, [lots, location]);
+
+  const currentLot = lotsWithDistance[0] || {
+    name: "読み込み中...", current_count: 0, total_capacity: 1, dist: 0
+  };
+  const closestLots = lotsWithDistance.slice(1, 5);
 
   const renderProgressBar = (current: number, total: number) => {
     const available = total - current;
@@ -201,14 +192,14 @@ export default function SignagePage() {
           <div className="flex justify-between">
             <div className="flex-1">
               <div className="bg-[#B9892A] text-white text-lg font-bold px-4 py-1.5 rounded-r-full inline-block -ml-5 mb-2 shadow-sm">
-                現在地
+                現在地から一番近い駐輪場
               </div>
               <h2 className="text-3xl font-black text-gray-800 tracking-tight mb-3">{currentLot.name}</h2>
               <div className="flex items-center gap-3">
                 <MapPin className="text-[#137A74] w-7 h-7" fill="#137A74" stroke="white" />
-                <span className="text-4xl font-bold text-[#137A74]">0m</span>
+                <span className="text-4xl font-bold text-[#137A74]">{formatDistance(currentLot.dist)}</span>
                 <div className="w-[1px] h-8 bg-gray-300 mx-2"></div>
-                <span className="text-gray-600 font-medium text-lg">この駐輪場が現在地です</span>
+                <span className="text-gray-600 font-medium text-lg">ここから一番近い駐輪場です</span>
               </div>
             </div>
             

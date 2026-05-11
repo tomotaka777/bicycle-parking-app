@@ -70,71 +70,13 @@ const userLocationIcon = L.divIcon({
   iconAnchor: [10, 10],
 });
 
-// Heatmap Layer Component
-function HeatmapLayer({ show }: { show: boolean }) {
-  const map = useMap();
-  const heatLayerRef = useRef<any>(null);
-
-  useEffect(() => {
-    // Dynamically import leaflet.heat to avoid SSR issues
-    import("leaflet.heat").then(() => {
-      if (!heatLayerRef.current) {
-        // Generate dummy pedestrian heat data around Umeda Station
-        const heatData = [];
-        const umedaLat = 34.7024;
-        const umedaLng = 135.4959;
-        
-        for (let i = 0; i < 500; i++) {
-          // Normal distribution-like scatter
-          const latOffset = (Math.random() - 0.5) * 0.01 + (Math.random() - 0.5) * 0.01;
-          const lngOffset = (Math.random() - 0.5) * 0.01 + (Math.random() - 0.5) * 0.01;
-          const intensity = Math.random() * 0.8 + 0.2; // 0.2 to 1.0
-          heatData.push([umedaLat + latOffset, umedaLng + lngOffset, intensity]);
-        }
-
-        // Add a dense core at the station
-        for (let i = 0; i < 200; i++) {
-          heatData.push([
-            umedaLat + (Math.random() - 0.5) * 0.002, 
-            umedaLng + (Math.random() - 0.5) * 0.002, 
-            1.0
-          ]);
-        }
-
-        // @ts-ignore
-        heatLayerRef.current = L.heatLayer(heatData, {
-          radius: 25,
-          blur: 15,
-          maxZoom: 16,
-          max: 1.0,
-          gradient: { 0.4: 'blue', 0.6: 'cyan', 0.7: 'lime', 0.8: 'yellow', 1.0: 'red' }
-        });
-      }
-
-      if (show && !map.hasLayer(heatLayerRef.current)) {
-        heatLayerRef.current.addTo(map);
-      } else if (!show && map.hasLayer(heatLayerRef.current)) {
-        map.removeLayer(heatLayerRef.current);
-      }
-    });
-
-    return () => {
-      if (heatLayerRef.current && map.hasLayer(heatLayerRef.current)) {
-        map.removeLayer(heatLayerRef.current);
-      }
-    };
-  }, [map, show]);
-
-  return null;
-}
 
 interface MapComponentProps {
   lots: BicycleParkingLot[];
   userLocation: { lat: number; lng: number } | null;
-  showHeatmap: boolean;
 }
 
-export default function MapComponent({ lots, userLocation, showHeatmap }: MapComponentProps) {
+export default function MapComponent({ lots, userLocation }: MapComponentProps) {
   const defaultCenter: [number, number] = [34.7024, 135.4959]; // Umeda Default
   const center: [number, number] = userLocation
     ? [userLocation.lat, userLocation.lng]
@@ -152,11 +94,7 @@ export default function MapComponent({ lots, userLocation, showHeatmap }: MapCom
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        className={showHeatmap ? "grayscale contrast-125 opacity-70" : ""}
       />
-      
-      {/* Admin Heatmap Layer */}
-      <HeatmapLayer show={showHeatmap} />
 
       {/* User Location */}
       {userLocation && (
