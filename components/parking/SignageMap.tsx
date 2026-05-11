@@ -57,6 +57,51 @@ function createCustomIcon(current: number, total: number, label: string) {
   });
 }
 
+function createClosestLotIcon(current: number, total: number) {
+  const available = total - current;
+  const ratio = available / total;
+  let color;
+  
+  if (available <= 0) {
+    color = "#D94F4F"; // Danger/Red
+  } else if (ratio <= 0.2) {
+    color = "#B9892A"; // Warning/Yellow
+  } else {
+    color = "#348A54"; // Success/Green
+  }
+
+  return L.divIcon({
+    className: "closest-lot-marker",
+    html: `
+      <div style="
+        position: relative;
+        background: ${color};
+        border: 3px solid white;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        display: flex; align-items: center; justify-content: center;
+        color: white; font-size: 14px; font-weight: 900;
+        padding: 6px 12px;
+        white-space: nowrap;
+      ">
+        ★ 一番近い
+        <div style="
+          position: absolute;
+          bottom: -8px; left: 50%;
+          transform: translateX(-50%);
+          width: 0; height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 10px solid ${color};
+        "></div>
+      </div>
+    `,
+    iconSize: [100, 44],
+    iconAnchor: [50, 44],
+    popupAnchor: [0, -44],
+  });
+}
+
 const currentLocationIcon = L.divIcon({
   className: "current-location-marker",
   html: `
@@ -116,7 +161,7 @@ export default function SignageMap({ center, lots, currentLot }: { center: {lat:
       {currentLot && (
         <Marker
           position={[currentLot.latitude, currentLot.longitude]}
-          icon={createCustomIcon(currentLot.current_count, currentLot.total_capacity, "★")}
+          icon={createClosestLotIcon(currentLot.current_count, currentLot.total_capacity)}
         />
       )}
 

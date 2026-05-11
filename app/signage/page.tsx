@@ -191,8 +191,8 @@ export default function SignagePage() {
         <div className="bg-white rounded-[24px] p-5 shadow-lg relative overflow-hidden">
           <div className="flex justify-between">
             <div className="flex-1">
-              <div className="bg-[#B9892A] text-white text-lg font-bold px-4 py-1.5 rounded-r-full inline-block -ml-5 mb-2 shadow-sm">
-                現在地から一番近い駐輪場
+              <div className="bg-[#B9892A] text-white text-lg font-bold px-4 py-1.5 rounded-r-full inline-flex items-center gap-2 -ml-5 mb-2 shadow-sm">
+                <span>★</span>現在地から一番近い駐輪場
               </div>
               <h2 className="text-3xl font-black text-gray-800 tracking-tight mb-3">{currentLot.name}</h2>
               <div className="flex items-center gap-3">
