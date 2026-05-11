@@ -157,14 +157,14 @@ const initialMockData: BicycleParkingLot[] = [
   },
   {
     id: "osaka_tech",
-    name: "大阪工科専門職大学駐輪場",
+    name: "大阪国際工科専門職大学駐輪場",
     station_name: "大阪駅",
-    address: "大阪市北区梅田3丁目",
+    address: "大阪市北区梅田3-3-1",
     current_count: 30,
     total_capacity: 100,
     parking_type: "屋内",
-    latitude: 34.700,
-    longitude: 135.490,
+    latitude: 34.699799,
+    longitude: 135.49311,
     updated_date: new Date().toISOString(),
   }
 ];
