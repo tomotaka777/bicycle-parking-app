@@ -11,7 +11,30 @@ export interface BicycleParkingLot {
   updated_date: string;
 }
 
-const mockData: BicycleParkingLot[] = [
+// Fetch helper for Google Sheets CSV
+async function fetchSheetData() {
+  try {
+    const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ4JidNBQtxwG8m2f2UwlAauzzmYz6luwL5oJUbWn7KyYUysL0FrTdtY7O9qok2DMZ_qZbusEU_fUf/pub?output=csv";
+    // Add timestamp to bypass caching
+    const response = await fetch(`${url}&_t=${Date.now()}`);
+    const text = await response.text();
+    const firstLine = text.split('\n')[0];
+    const columns = firstLine.split(',');
+    if (columns.length >= 3) {
+       const name = columns[0].trim();
+       const total = parseInt(columns[1].trim(), 10);
+       const current = parseInt(columns[2].trim(), 10);
+       if (!isNaN(total) && !isNaN(current)) {
+         return { name, total, current };
+       }
+    }
+  } catch (err) {
+    console.error("Failed to fetch sheet data", err);
+  }
+  return null;
+}
+
+const initialMockData: BicycleParkingLot[] = [
   {
     id: "1",
     name: "梅田駅前第1駐輪場",
@@ -131,30 +154,59 @@ const mockData: BicycleParkingLot[] = [
     latitude: 34.707,
     longitude: 135.498,
     updated_date: new Date().toISOString(),
+  },
+  {
+    id: "osaka_tech",
+    name: "大阪工科専門職大学駐輪場",
+    station_name: "大阪駅",
+    address: "大阪市北区梅田3丁目",
+    current_count: 30,
+    total_capacity: 100,
+    parking_type: "屋内",
+    latitude: 34.700,
+    longitude: 135.490,
+    updated_date: new Date().toISOString(),
   }
 ];
 
+let currentMockData = [...initialMockData];
 
 export const firebaseClient = {
   BicycleParkingLot: {
     list: async (lat?: number, lng?: number): Promise<BicycleParkingLot[]> => {
-      // Simulate network delay
-      return new Promise((resolve) => setTimeout(() => resolve(mockData), 500));
+      const sheetData = await fetchSheetData();
+      if (sheetData) {
+        currentMockData = currentMockData.map(lot => {
+          if (lot.id === "osaka_tech") {
+            return { ...lot, current_count: sheetData.current, total_capacity: sheetData.total, name: sheetData.name, updated_date: new Date().toISOString() };
+          }
+          return lot;
+        });
+      }
+      return currentMockData;
     },
     subscribe: (callback: (data: BicycleParkingLot[]) => void) => {
-      // Simulate real-time updates every 15 seconds
-      const interval = setInterval(() => {
-        // Randomly update some counts
-        const updatedData = mockData.map(lot => {
+      const interval = setInterval(async () => {
+        const sheetData = await fetchSheetData();
+        
+        currentMockData = currentMockData.map(lot => {
+          if (lot.id === "osaka_tech") {
+            if (sheetData) {
+              return { ...lot, current_count: sheetData.current, total_capacity: sheetData.total, name: sheetData.name, updated_date: new Date().toISOString() };
+            }
+            return lot;
+          }
+          
+          // Randomly update other counts
           if (Math.random() > 0.5 && lot.total_capacity > 0) {
-            // randomly fluctuate count, keep within bounds
             const change = Math.floor(Math.random() * 5) - 2; 
             const newCount = Math.max(0, Math.min(lot.total_capacity, lot.current_count + change));
             return { ...lot, current_count: newCount, updated_date: new Date().toISOString() };
           }
           return lot;
         });
-        callback(updatedData);
+        
+        callback(currentMockData);
       }, 15000);
       return () => clearInterval(interval);
     }
