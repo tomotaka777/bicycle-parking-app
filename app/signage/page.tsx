@@ -227,8 +227,9 @@ export default function SignagePage() {
         <div className="bg-white rounded-[24px] h-[360px] relative overflow-hidden shadow-inner border-4 border-white flex items-center justify-center">
           {currentLot.latitude && closestLots.length > 0 && (
             <SignageMap 
-              center={{lat: currentLot.latitude, lng: currentLot.longitude}} 
+              center={location ? {lat: location.lat, lng: location.lng} : {lat: 34.705876, lng: 135.494447}} 
               lots={closestLots} 
+              currentLot={currentLot}
             />
           )}
         </div>

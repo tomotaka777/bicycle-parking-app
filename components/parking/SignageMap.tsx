@@ -85,7 +85,7 @@ const currentLocationIcon = L.divIcon({
   iconAnchor: [22, 54],
 });
 
-export default function SignageMap({ center, lots }: { center: {lat: number, lng: number}, lots: any[] }) {
+export default function SignageMap({ center, lots, currentLot }: { center: {lat: number, lng: number}, lots: any[], currentLot?: any }) {
   // Use a slight filter to make the map match the teal theme better
   return (
     <MapContainer
@@ -112,6 +112,13 @@ export default function SignageMap({ center, lots }: { center: {lat: number, lng
       />
 
       <Marker position={[center.lat, center.lng]} icon={currentLocationIcon} />
+
+      {currentLot && (
+        <Marker
+          position={[currentLot.latitude, currentLot.longitude]}
+          icon={createCustomIcon(currentLot.current_count, currentLot.total_capacity, "★")}
+        />
+      )}
 
       {lots.map((lot, idx) => {
         const letters = ["A", "B", "C", "D"];
