@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Search, SlidersHorizontal, ChevronDown, ChevronUp } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -125,6 +127,7 @@ export default function SearchFilter({
             ))}
           </div>
         </div>
+      </div>
       )}
     </div>
   );
