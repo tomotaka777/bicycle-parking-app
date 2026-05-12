@@ -1,4 +1,5 @@
-import { Search, SlidersHorizontal } from "lucide-react";
+import { useState } from "react";
+import { Search, SlidersHorizontal, ChevronDown, ChevronUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface SearchFilterProps {
@@ -24,6 +25,8 @@ export default function SearchFilter({
   onSortChange,
   hasLocation,
 }: SearchFilterProps) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="space-y-4">
       <div className="flex gap-2">
@@ -37,14 +40,24 @@ export default function SearchFilter({
             className="w-full pl-9 pr-4 py-2.5 bg-card border rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
           />
         </div>
-        <button className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-xl text-sm font-medium hover:bg-primary/90 transition-all">
+        <button 
+          onClick={() => setIsOpen(!isOpen)}
+          className={cn(
+            "flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all",
+            isOpen 
+              ? "bg-primary text-primary-foreground shadow-md" 
+              : "bg-card border text-foreground hover:bg-muted"
+          )}
+        >
           <SlidersHorizontal className="w-4 h-4" />
           <span className="hidden sm:inline">フィルター</span>
+          {isOpen ? <ChevronUp className="w-4 h-4 ml-1" /> : <ChevronDown className="w-4 h-4 ml-1" />}
         </button>
       </div>
 
-      <div className="bg-card border rounded-2xl p-4 space-y-4">
-        <div>
+      {isOpen && (
+        <div className="bg-card border rounded-2xl p-4 space-y-4 animate-in slide-in-from-top-2 fade-in duration-200">
+          <div>
           <div className="text-xs font-medium text-muted-foreground mb-2">空き状況</div>
           <div className="flex flex-wrap gap-2">
             {["all", "success", "warning", "danger"].map((val) => (
@@ -112,7 +125,7 @@ export default function SearchFilter({
             ))}
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
