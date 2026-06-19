@@ -105,6 +105,18 @@ export default function SearchFilter({
             >
               近い順
             </button>
+            <button
+              onClick={() => onSortChange("recommended")}
+              disabled={!hasLocation}
+              className={cn(
+                "px-3 py-1.5 rounded-full text-xs font-medium transition-all disabled:opacity-50",
+                sortOrder === "recommended"
+                  ? "bg-primary text-primary-foreground"
+                  : "bg-muted text-muted-foreground hover:bg-muted/80"
+              )}
+            >
+              おすすめ順
+            </button>
           </div>
         </div>
 

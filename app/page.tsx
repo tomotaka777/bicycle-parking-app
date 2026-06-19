@@ -16,7 +16,7 @@ export default function Dashboard() {
   const [searchQuery, setSearchQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
   const [typeFilter, setTypeFilter] = useState("all");
-  const [sortOrder, setSortOrder] = useState("default");
+  const [sortOrder, setSortOrder] = useState("recommended");
   const { location: userLocation } = useUserLocation();
   const queryClient = useQueryClient();
 
@@ -51,10 +51,24 @@ export default function Dashboard() {
 
     return matchSearch && matchStatus && matchType;
   }).sort((a, b) => {
-    if (sortOrder === "nearest" && userLocation && a.latitude && b.latitude) {
+    if (!userLocation || !a.latitude || !b.latitude) return 0;
+
+    if (sortOrder === "nearest") {
       const dA = calcDistance(userLocation.lat, userLocation.lng, a.latitude, a.longitude);
       const dB = calcDistance(userLocation.lat, userLocation.lng, b.latitude, b.longitude);
       return dA - dB;
+    } else if (sortOrder === "recommended") {
+      const dA = calcDistance(userLocation.lat, userLocation.lng, a.latitude, a.longitude);
+      const dB = calcDistance(userLocation.lat, userLocation.lng, b.latitude, b.longitude);
+      
+      // 満車確率P (バックグラウンドから提供される想定。未提供の場合は現在の利用率でモック計算)
+      const pA = a.full_probability ?? (a.total_capacity > 0 ? a.current_count / a.total_capacity : 1);
+      const pB = b.full_probability ?? (b.total_capacity > 0 ? b.current_count / b.total_capacity : 1);
+      
+      const scoreA = dA * (1 + pA);
+      const scoreB = dB * (1 + pB);
+      
+      return scoreA - scoreB;
     }
     return 0;
   });

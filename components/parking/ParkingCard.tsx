@@ -26,7 +26,9 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
       <div className="flex justify-between items-start mb-4">
         <div>
           <h3 className="font-semibold text-base">{lot.name}</h3>
-          <p className="text-xs text-muted-foreground mt-0.5">{lot.station_name}</p>
+          {lot.station_name && lot.station_name !== "不明" && (
+            <p className="text-xs text-muted-foreground mt-0.5">{lot.station_name}</p>
+          )}
         </div>
         <StatusBadge current={lot.current_count} total={lot.total_capacity} />
       </div>
@@ -38,15 +40,31 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
           <MapPin className="w-3.5 h-3.5" />
           <span className="truncate">{lot.address}</span>
         </div>
-        <div className="flex items-center gap-1.5">
-          <Layers className="w-3.5 h-3.5" />
-          <span>{lot.parking_type}</span>
-        </div>
+        {lot.parking_type && lot.parking_type !== "不明" && (
+          <div className="flex items-center gap-1.5">
+            <Layers className="w-3.5 h-3.5" />
+            <span>{lot.parking_type}</span>
+          </div>
+        )}
         <div className="flex items-center gap-1.5">
           <Clock className="w-3.5 h-3.5" />
-          <span>24時間</span>
+          <span>{lot.operating_hours}</span>
         </div>
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 col-span-2 text-primary/80">
+          <span className="font-medium text-[10px] px-1 border border-primary/30 rounded">料金</span>
+          <span className="truncate">{lot.fee}</span>
+        </div>
+        <div className="flex items-center gap-1.5 col-span-2 text-muted-foreground">
+          <span className="font-medium text-[10px] px-1 border border-border rounded bg-muted/50">予測</span>
+          <span className="truncate text-xs">
+            {lot.full_probability !== undefined ? (
+              <span className={lot.full_probability >= 0.7 ? "text-orange-600 font-semibold" : "font-medium"}>
+                満車確率: {`${(lot.full_probability * 100).toFixed(0)}%`}
+              </span>
+            ) : "満車確率: 不明"}
+          </span>
+        </div>
+        <div className="flex items-center gap-1.5 col-span-2">
           <Navigation className="w-3.5 h-3.5 text-primary" />
           <span className="text-primary font-medium">
             {dist !== null ? `現在地から ${formatDistance(dist)}` : "距離不明"}

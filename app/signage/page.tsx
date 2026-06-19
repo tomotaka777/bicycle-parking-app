@@ -89,10 +89,12 @@ export default function SignagePage() {
     const withDistance = lots.filter(l => l.latitude).map(lot => {
       const dist = calcDistance(lat, lng, lot.latitude, lot.longitude);
       const bearing = calcBearing(lat, lng, lot.latitude, lot.longitude);
-      return { ...lot, dist, bearing };
+      const p = lot.full_probability || 0;
+      const score = dist * (1 + p);
+      return { ...lot, dist, bearing, score };
     });
     
-    withDistance.sort((a, b) => a.dist - b.dist);
+    withDistance.sort((a, b) => a.score - b.score);
     return withDistance;
   }, [lots, location]);
 
@@ -140,6 +142,13 @@ export default function SignagePage() {
                 <div className="flex flex-col leading-tight">
                   <span className="text-sm font-bold">{lot.bearing.dir}</span>
                   <span className="text-[10px] text-gray-400">{lot.bearing.enDir}</span>
+                </div>
+              </div>
+              <div className="w-[1px] h-6 bg-gray-300"></div>
+              <div className="flex items-center gap-1">
+                <div className="flex flex-col leading-tight">
+                  <span className="text-sm font-bold text-gray-600">予測</span>
+                  <span className="text-[10px] text-gray-400">{lot.full_probability !== undefined ? `${(lot.full_probability * 100).toFixed(0)}%` : "不明"}</span>
                 </div>
               </div>
             </div>
@@ -192,14 +201,20 @@ export default function SignagePage() {
           <div className="flex justify-between">
             <div className="flex-1">
               <div className="bg-[#B9892A] text-white text-lg font-bold px-4 py-1.5 rounded-r-full inline-flex items-center gap-2 -ml-5 mb-2 shadow-sm">
-                <span>★</span>現在地から一番近い駐輪場
+                <span>★</span>おすすめの駐輪場
               </div>
               <h2 className="text-3xl font-black text-gray-800 tracking-tight mb-3">{currentLot.name}</h2>
               <div className="flex items-center gap-3">
                 <MapPin className="text-[#137A74] w-7 h-7" fill="#137A74" stroke="white" />
                 <span className="text-4xl font-bold text-[#137A74]">{formatDistance(currentLot.dist)}</span>
                 <div className="w-[1px] h-8 bg-gray-300 mx-2"></div>
-                <span className="text-gray-600 font-medium text-lg">ここから一番近い駐輪場です</span>
+                <span className="text-gray-600 font-medium text-lg">おすすめの駐輪場です</span>
+                {currentLot.full_probability !== undefined && (
+                  <>
+                    <div className="w-[1px] h-8 bg-gray-300 mx-2"></div>
+                    <span className="text-gray-600 font-medium text-lg">予測: {(currentLot.full_probability * 100).toFixed(0)}%</span>
+                  </>
+                )}
               </div>
             </div>
             
@@ -239,6 +254,20 @@ export default function SignagePage() {
           {closestLots.map((lot, idx) => (
              <ListItem key={lot.id} lot={lot} letter={letters[idx]} />
           ))}
+        </div>
+
+        {/* Detail Map Image Area */}
+        <div className="mt-2 bg-white rounded-[24px] h-[360px] relative overflow-hidden shadow-inner border-4 border-white flex items-center justify-center">
+          {/* Google Driveからの画像取得を中継（プロキシ）API経由で取得します */}
+          <img 
+            src={`/api/drive-image?id=1MRkL6KR4cIrCiTA28xipCL2Lff_iiVBd&t=${Date.now()}`}
+            onError={(e) => {
+              // 画像が読み込めない場合のフォールバック
+              e.currentTarget.src = "https://placehold.co/1200x600/e2e8f0/475569?text=Image+Load+Error";
+            }}
+            alt="Parking Layout" 
+            className="w-full h-full object-contain"
+          />
         </div>
 
       </main>
