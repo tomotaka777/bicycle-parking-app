@@ -10,7 +10,7 @@ export interface BicycleParkingLot {
   parking_type: string;
   latitude: number;
   longitude: number;
-  full_probability: number;
+  full_probability?: number;
   location_landmark?: string;
   guide_html?: string;
   operating_hours?: string;
