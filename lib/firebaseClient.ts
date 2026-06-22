@@ -44,7 +44,7 @@ const osakaTechLot: BicycleParkingLot = {
   address: "大阪市北区梅田3-3-1",
   current_count: 30,
   total_capacity: 3,
-  parking_type: "屋内",
+  parking_type: "仮設",
   latitude: 34.699799,
   longitude: 135.49311,
   updated_date: new Date().toISOString(),
