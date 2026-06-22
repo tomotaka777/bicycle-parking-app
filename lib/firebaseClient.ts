@@ -52,28 +52,6 @@ const osakaTechLot: BicycleParkingLot = {
 
 let currentMockData = [...osakaLots, osakaTechLot];
 
-// Fetch helper for Google Sheets CSV (for osaka_tech)
-async function fetchSheetData() {
-  try {
-    const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ4JidNBQtxwG8m2f2UwlAauzzmYz6luwL5oJUbWn7KyYUysL0FrTdtY7O9qok2DMZ_qZbusEU_fUf/pub?output=csv";
-    const response = await fetch(`${url}&_t=${Date.now()}`);
-    const text = await response.text();
-    const firstLine = text.split('\n')[0];
-    const columns = firstLine.split(',');
-    if (columns.length >= 3) {
-       const name = columns[0].trim();
-       const total = parseInt(columns[1].trim(), 10);
-       const current = parseInt(columns[2].trim(), 10);
-       if (!isNaN(total) && !isNaN(current)) {
-         return { name, total, current };
-       }
-    }
-  } catch (err) {
-    console.error("Failed to fetch sheet data", err);
-  }
-  return null;
-}
-
 // Fetch helper for API sync status (for the 50 lots)
 async function fetchSyncStatus() {
   try {
@@ -91,14 +69,13 @@ export const firebaseClient = {
   BicycleParkingLot: {
     list: async (lat?: number, lng?: number): Promise<BicycleParkingLot[]> => {
       // Fetch initial syncs
-      const [sheetData, syncStatus] = await Promise.all([
-        fetchSheetData(),
-        fetchSyncStatus()
-      ]);
+      const syncStatus = await fetchSyncStatus();
 
       currentMockData = currentMockData.map(lot => {
-        if (lot.id === "osaka_tech" && sheetData) {
-          return { ...lot, current_count: sheetData.current, total_capacity: sheetData.total, name: sheetData.name, updated_date: new Date().toISOString() };
+        if (lot.id === "osaka_tech") {
+          const currentCount = syncStatus?.slots?.osaka_tech_parked ?? lot.current_count;
+          const fullProb = syncStatus?.probabilities?.osaka_tech ?? lot.full_probability;
+          return { ...lot, current_count: currentCount, full_probability: fullProb, updated_date: new Date().toISOString() };
         } else if (syncStatus && syncStatus.slots && syncStatus.slots[lot.id] !== undefined) {
           const available = syncStatus.slots[lot.id];
           const currentCount = Math.max(0, lot.total_capacity - available);
@@ -117,24 +94,26 @@ export const firebaseClient = {
       firebaseClient.BicycleParkingLot.list().then(data => callback(data));
 
       const interval = setInterval(async () => {
-        const [sheetData, syncStatus] = await Promise.all([
-          fetchSheetData(),
-          fetchSyncStatus()
-        ]);
+        const syncStatus = await fetchSyncStatus();
         
         let hasChanges = false;
         const newData = currentMockData.map(lot => {
-          if (lot.id === "osaka_tech" && sheetData) {
-             if (lot.current_count !== sheetData.current) hasChanges = true;
-             return { ...lot, current_count: sheetData.current, total_capacity: sheetData.total, name: sheetData.name, updated_date: new Date().toISOString() };
+          if (lot.id === "osaka_tech") {
+             const currentCount = syncStatus?.slots?.osaka_tech_parked ?? lot.current_count;
+             const fullProb = syncStatus?.probabilities?.osaka_tech ?? lot.full_probability;
+             if (lot.current_count !== currentCount || lot.full_probability !== fullProb) hasChanges = true;
+             return { ...lot, current_count: currentCount, full_probability: fullProb, updated_date: new Date().toISOString() };
           } else if (syncStatus && syncStatus.slots && syncStatus.slots[lot.id] !== undefined) {
              const available = syncStatus.slots[lot.id];
              const currentCount = Math.max(0, lot.total_capacity - available);
              const fullProb = syncStatus.probabilities && syncStatus.probabilities[lot.id] !== undefined 
                 ? syncStatus.probabilities[lot.id] 
                 : lot.full_probability;
-                
-             if (lot.current_count !== currentCount || lot.full_probability !== fullProb) hasChanges = true;
+             
+             if (lot.current_count !== currentCount || lot.full_probability !== fullProb) {
+               hasChanges = true;
+             }
+             
              return { ...lot, current_count: currentCount, full_probability: fullProb, updated_date: new Date().toISOString() };
           }
           return lot;
