@@ -40,7 +40,7 @@ const osakaLots: BicycleParkingLot[] = osakaLotsRaw.map((lot: any) => ({
 const osakaTechLot: BicycleParkingLot = {
   id: "osaka_tech",
   name: "大阪国際工科専門職大学駐輪場",
-  station_name: "大阪駅",
+  station_name: "不明",
   address: "大阪市北区梅田3-3-1",
   current_count: 30,
   total_capacity: 3,
