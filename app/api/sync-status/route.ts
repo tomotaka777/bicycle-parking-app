@@ -7,9 +7,36 @@ export async function GET() {
     const statusFileId = '1Q_QFVssWHveTQmJbU9m7mqYodM92JDjhltWgoY6UBNU';
     const statusUrl = `https://docs.google.com/spreadsheets/d/${statusFileId}/export?format=xlsx`;
 
-    // 2. Fetch full probabilities from the official ML model spreadsheet
-    const probFileId = '1TpXm7sSb1cw3gz8uBfB8L8c2I0uxWbK8s1jW_Qw9CjU';
-    const probUrl = `https://docs.google.com/spreadsheets/d/${probFileId}/export?format=xlsx`;
+    // 2. Fetch full probabilities (Dynamic ID parsing)
+    const fetchProb = async () => {
+      let probFileId = '1k7_AcTvS7YPlleJwZL6AEhRS7JNSaDu_ptRbLc_1g7U'; // Fallback
+      try {
+        const folderUrl = 'https://drive.google.com/drive/folders/1dRwaOUqBeVuRD3HtueVlAAa6ebn2RYr4?usp=sharing';
+        const folderRes = await fetch(folderUrl, { next: { revalidate: 15 } });
+        if (folderRes.ok) {
+          const html = await folderRes.text();
+          const parts = html.split('[null,"');
+          for (let i = 1; i < parts.length; i++) {
+            const p = parts[i];
+            if (p.substring(0, 2000).includes('"満車予測_最新"')) {
+              probFileId = p.split('"')[0];
+              break;
+            }
+          }
+        }
+      } catch (e) {
+        console.warn('Failed to parse dynamic prob ID', e);
+      }
+      
+      const probUrl = `https://docs.google.com/spreadsheets/d/${probFileId}/export?format=xlsx`;
+      let res = await fetch(probUrl, { next: { revalidate: 15 } });
+      
+      // If it returned HTML (meaning it's a raw .xlsx file, not a Google Sheet), fallback to direct download
+      if (res.headers.get('content-type')?.includes('text/html')) {
+        res = await fetch(`https://drive.google.com/uc?export=download&id=${probFileId}`, { next: { revalidate: 15 } });
+      }
+      return res;
+    };
 
     // 3. Fetch Osaka Tech specific latest status
     const osakaTechFileId = '1aCubfjUGDm11G1gRwMiq0zhoGaN8-GNXZ6eW9AT4pMw';
@@ -17,7 +44,7 @@ export async function GET() {
 
     const [statusResponse, probResponse, osakaTechResponse] = await Promise.all([
       fetch(statusUrl, { next: { revalidate: 15 } }),
-      fetch(probUrl, { next: { revalidate: 15 } }),
+      fetchProb(),
       fetch(osakaTechUrl, { next: { revalidate: 15 } })
     ]);
 
