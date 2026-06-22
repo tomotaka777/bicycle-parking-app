@@ -53,7 +53,6 @@ export default function SignagePage() {
   const queryClient = useQueryClient();
   const [timeStr, setTimeStr] = useState("");
   const [dateStr, setDateStr] = useState("");
-  const { location, error } = useUserLocation();
 
   const { data: lots = [] } = useQuery({
     queryKey: ["parking-lots-signage"],
@@ -79,24 +78,27 @@ export default function SignagePage() {
     };
   }, [queryClient]);
 
-  // Calculate distances for all lots from current location
+  // Calculate distances for all lots from fixed Osaka Tech location
   const lotsWithDistance = useMemo(() => {
     if (!lots.length) return [];
     
-    const lat = location ? location.lat : 34.705876;
-    const lng = location ? location.lng : 135.494447;
+    // Fixed location: Osaka Tech
+    const lat = 34.699799;
+    const lng = 135.49311;
 
-    const withDistance = lots.filter(l => l.latitude).map(lot => {
-      const dist = calcDistance(lat, lng, lot.latitude, lot.longitude);
-      const bearing = calcBearing(lat, lng, lot.latitude, lot.longitude);
-      const p = lot.full_probability || 0;
-      const score = dist * (1 + p);
-      return { ...lot, dist, bearing, score };
-    });
+    const withDistance = lots
+      .filter(l => l.latitude && l.id !== "osaka_tech")
+      .map(lot => {
+        const dist = calcDistance(lat, lng, lot.latitude, lot.longitude);
+        const bearing = calcBearing(lat, lng, lot.latitude, lot.longitude);
+        const p = lot.full_probability ?? (lot.total_capacity > 0 ? lot.current_count / lot.total_capacity : 1);
+        const score = dist * (1 + p);
+        return { ...lot, dist, bearing, score };
+      });
     
     withDistance.sort((a, b) => a.score - b.score);
     return withDistance;
-  }, [lots, location]);
+  }, [lots]);
 
   const currentLot = lotsWithDistance[0] || {
     name: "読み込み中...", current_count: 0, total_capacity: 1, dist: 0
@@ -182,7 +184,7 @@ export default function SignagePage() {
           <Bike className="w-14 h-14 flex-shrink-0" strokeWidth={1.5} />
           <div>
             <h1 className="text-4xl font-bold tracking-wider mb-2">梅田周辺 駐輪場ルート案内</h1>
-            <p className="text-base font-medium">グランフロント北館駐輪場から、周辺エリアの<br/>駐輪場までのルートと空き状況をご案内します。</p>
+            <p className="text-base font-medium">大阪国際工科専門職大学から、周辺エリアの<br/>駐輪場までのルートと空き状況をご案内します。</p>
           </div>
         </div>
         <div className="bg-white p-2 rounded-lg text-center shadow-lg">
@@ -242,7 +244,7 @@ export default function SignagePage() {
         <div className="bg-white rounded-[24px] h-[360px] relative overflow-hidden shadow-inner border-4 border-white flex items-center justify-center">
           {currentLot.latitude && closestLots.length > 0 && (
             <SignageMap 
-              center={location ? {lat: location.lat, lng: location.lng} : {lat: 34.705876, lng: 135.494447}} 
+              center={{lat: 34.699799, lng: 135.49311}} 
               lots={closestLots} 
               currentLot={currentLot}
             />
