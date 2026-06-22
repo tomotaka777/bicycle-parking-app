@@ -259,17 +259,44 @@ export default function SignagePage() {
         </div>
 
         {/* Detail Map Image Area */}
-        <div className="mt-2 bg-white rounded-[24px] h-[360px] relative overflow-hidden shadow-inner border-4 border-white flex items-center justify-center">
-          {/* Google Driveからの画像取得を中継（プロキシ）API経由で取得します */}
-          <img 
-            src={`/api/drive-image?id=1MRkL6KR4cIrCiTA28xipCL2Lff_iiVBd&t=${Date.now()}`}
-            onError={(e) => {
-              // 画像が読み込めない場合のフォールバック
-              e.currentTarget.src = "https://placehold.co/1200x600/e2e8f0/475569?text=Image+Load+Error";
-            }}
-            alt="Parking Layout" 
-            className="w-full h-full object-contain"
-          />
+        <div className="mt-2 bg-white rounded-[24px] h-[360px] relative overflow-hidden shadow-lg flex border-4 border-white">
+          {/* 左側: カメラ画像 */}
+          <div className="w-1/2 h-full bg-gray-50/50 flex items-center justify-center border-r border-gray-100">
+            <img 
+              src={`/api/drive-image?id=1MRkL6KR4cIrCiTA28xipCL2Lff_iiVBd&t=${Date.now()}`}
+              onError={(e) => {
+                e.currentTarget.src = "https://placehold.co/1200x600/e2e8f0/475569?text=Image+Load+Error";
+              }}
+              alt="Parking Layout" 
+              className="w-full h-full object-contain mix-blend-multiply p-2"
+            />
+          </div>
+          
+          {/* 右側: 説明文 */}
+          <div className="w-1/2 h-full p-8 flex flex-col justify-center bg-white">
+            <div className="flex items-center gap-3 mb-5">
+              <div className="w-10 h-10 bg-[#137A74] text-white rounded-xl flex items-center justify-center shadow-sm">
+                <Bike className="w-6 h-6" />
+              </div>
+              <h3 className="text-2xl font-black text-gray-800 tracking-tight">現在の駐輪スペース状況</h3>
+            </div>
+            
+            <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
+              現在地の<span className="font-bold text-[#137A74] mx-1">大阪国際工科専門職大学駐輪場</span>の様子をAIカメラでリアルタイム解析しています。<br />
+              各スペースの空き状況が一目でわかります。
+            </p>
+            
+            <div className="flex flex-col gap-5 bg-gray-50/80 p-6 rounded-2xl border border-gray-100 shadow-sm">
+              <div className="flex items-center gap-4">
+                <div className="w-7 h-7 rounded-md bg-green-500/20 border-2 border-green-500 shadow-sm flex-shrink-0"></div>
+                <span className="text-xl font-bold text-gray-800 tracking-wide">緑色 <span className="text-gray-500 font-medium ml-2">... 今すぐ駐輪できます</span></span>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="w-7 h-7 rounded-md bg-red-500/20 border-2 border-red-500 shadow-sm flex-shrink-0"></div>
+                <span className="text-xl font-bold text-gray-800 tracking-wide">赤色 <span className="text-gray-500 font-medium ml-2">... 既に埋まっています</span></span>
+              </div>
+            </div>
+          </div>
         </div>
 
       </main>
