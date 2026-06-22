@@ -26,6 +26,7 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
       <div className="flex justify-between items-start mb-4">
         <div>
           <h3 className="font-semibold text-base">{lot.name}</h3>
+          <p className="text-[10px] text-muted-foreground/70 font-mono mt-0.5">ID: {lot.id}</p>
           {lot.station_name && lot.station_name !== "不明" && (
             <p className="text-xs text-muted-foreground mt-0.5">{lot.station_name}</p>
           )}
