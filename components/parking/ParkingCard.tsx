@@ -75,10 +75,7 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
 
       <div className="mt-4 pt-3">
         <a 
-          href={userLocation 
-            ? `https://www.google.com/maps/dir/?api=1&origin=${userLocation.lat},${userLocation.lng}&destination=${lot.latitude},${lot.longitude}`
-            : `https://www.google.com/maps/dir/?api=1&destination=${lot.latitude},${lot.longitude}`
-          }
+          href={`https://www.google.com/maps/dir/?api=1&destination=${lot.latitude},${lot.longitude}`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full flex items-center justify-center gap-2 bg-primary/10 hover:bg-primary/20 text-primary text-sm font-medium py-2.5 rounded-lg transition-colors"
