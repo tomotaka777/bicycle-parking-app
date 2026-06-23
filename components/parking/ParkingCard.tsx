@@ -24,8 +24,8 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
       className="bg-card rounded-2xl border p-5 hover:border-primary/30 transition-all hover:shadow-sm flex flex-col h-full"
     >
       <div className="flex justify-between items-start mb-4">
-        <div className="flex-1 min-h-[5.5rem] pr-2">
-          <h3 className="font-semibold text-base line-clamp-2">{lot.name}</h3>
+        <div className="flex-1 min-h-[4.5rem] pr-2 flex flex-col justify-center">
+          <h3 className="font-bold text-lg leading-snug line-clamp-2">{lot.name}</h3>
           <p className="text-[10px] text-muted-foreground/70 font-mono mt-0.5">ID: {lot.id}</p>
           {lot.station_name && lot.station_name !== "不明" && (
             <p className="text-xs text-muted-foreground mt-0.5">{lot.station_name}</p>
