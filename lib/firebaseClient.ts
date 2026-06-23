@@ -18,9 +18,20 @@ export interface BicycleParkingLot {
   updated_date: string;
 }
 
-// Map raw JSON to BicycleParkingLot
-const osakaLots: BicycleParkingLot[] = osakaLotsRaw.map((lot: any) => ({
-  id: lot.id,
+// The following 22 parking lots are marked as invalid (red cells in the master spreadsheet)
+const invalidIds = [
+  "arc_54_5", "arc_55_1", "arc_56_1",
+  "dojima_12001", "dojima_12002", "dojima_13001", "dojima_13002", "dojima_13003", "dojima_13004",
+  "dojima_31001", "dojima_31003", "dojima_31004", "dojima_32001", "dojima_32002",
+  "dojima_43004", "dojima_43005", "dojima_43006", "dojima_53002", "dojima_53004",
+  "umeda_12006", "umeda_31001", "umeda_41001"
+];
+
+// Map raw JSON to BicycleParkingLot, excluding invalid ones
+const osakaLots: BicycleParkingLot[] = osakaLotsRaw
+  .filter((lot: any) => !invalidIds.includes(lot.id))
+  .map((lot: any) => ({
+    id: lot.id,
   name: lot.name,
   station_name: "不明", 
   address: lot.address || "大阪市北区",
