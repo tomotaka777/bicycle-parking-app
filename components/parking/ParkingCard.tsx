@@ -21,7 +21,7 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.05 }}
-      className="bg-card rounded-2xl border p-5 hover:border-primary/30 transition-all hover:shadow-sm"
+      className="bg-card rounded-2xl border p-5 hover:border-primary/30 transition-all hover:shadow-sm flex flex-col h-full"
     >
       <div className="flex justify-between items-start mb-4">
         <div>
@@ -73,7 +73,7 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
         </div>
       </div>
 
-      <div className="mt-4 pt-3">
+      <div className="mt-auto pt-4">
         <a 
           href={`https://www.google.com/maps/dir/?api=1&destination=${lot.latitude},${lot.longitude}`}
           target="_blank"
