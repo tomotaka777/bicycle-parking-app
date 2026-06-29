@@ -38,9 +38,7 @@ export default function Dashboard() {
     const query = searchQuery.toLowerCase();
     const matchSearch =
       !query ||
-      (lot.name || "").toLowerCase().includes(query) ||
-      (lot.station_name || "").toLowerCase().includes(query) ||
-      (lot.address || "").toLowerCase().includes(query);
+      (lot.name || "").toLowerCase().includes(query);
 
     // Status
     const status = getAvailabilityStatus(lot.current_count, lot.total_capacity);
