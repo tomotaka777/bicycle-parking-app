@@ -92,7 +92,8 @@ export default function SignagePage() {
         const dist = calcDistance(lat, lng, lot.latitude, lot.longitude);
         const bearing = calcBearing(lat, lng, lot.latitude, lot.longitude);
         const p = lot.full_probability ?? (lot.total_capacity > 0 ? lot.current_count / lot.total_capacity : 1);
-        const score = dist * (1 + p);
+        const isFull = p >= 1.0 || (lot.total_capacity > 0 && lot.current_count >= lot.total_capacity);
+        const score = isFull ? 999999 + dist : dist * (1 + p);
         return { ...lot, dist, bearing, score };
       });
     

@@ -59,12 +59,14 @@ export default function Dashboard() {
       const dA = calcDistance(userLocation.lat, userLocation.lng, a.latitude, a.longitude);
       const dB = calcDistance(userLocation.lat, userLocation.lng, b.latitude, b.longitude);
       
-      // 満車確率P (バックグラウンドから提供される想定。未提供の場合は現在の利用率でモック計算)
       const pA = a.full_probability ?? (a.total_capacity > 0 ? a.current_count / a.total_capacity : 1);
       const pB = b.full_probability ?? (b.total_capacity > 0 ? b.current_count / b.total_capacity : 1);
       
-      const scoreA = dA * (1 + pA);
-      const scoreB = dB * (1 + pB);
+      const isFullA = pA >= 1.0 || (a.total_capacity > 0 && a.current_count >= a.total_capacity);
+      const isFullB = pB >= 1.0 || (b.total_capacity > 0 && b.current_count >= b.total_capacity);
+      
+      const scoreA = isFullA ? 999999 + dA : dA * (1 + pA);
+      const scoreB = isFullB ? 999999 + dB : dB * (1 + pB);
       
       return scoreA - scoreB;
     }
