@@ -43,7 +43,7 @@
     "name": "Eco21 梅田駅高架下駐輪場",
     "lat": 34.7054344,
     "lng": 135.4983799,
-    "total_capacity": 47,
+    "total_capacity": 141,
     "current_count": 0,
     "full_probability": 0,
     "address": "",
@@ -76,32 +76,6 @@
     "parking_type": "阪急梅田 ゾーン芝田町 エリア",
     "location_landmark": "大深町4-20　地下1階",
     "guide_html": "<div class=\"guidebox\">\n<h1>大阪駅北 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p01.png\"/>\n<p>①JR大阪駅を含む巨大商業施設「大阪ステーションシティ」すぐ</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p02.jpg\"/>\n<p>②ヨドバシ梅田タワー駐輪場。奥にスペースを拡大</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p03.png\"/>\n<p>③うめきた広場からグランフロント南館</p>\n</li>\n</ul>\n<h3>グランフロント＆ヨドバシカメラ近辺は各線へアクセス抜群</h3>\n<p class=\"caption\">JR大阪駅①をはじめ、阪急大阪梅田駅、地下鉄各線へアクセス良好。どの駐輪場も収容台数が多いため、平日・休日問わず、意外と止めやすい。「ヨドバシマルチメディア梅田」「LINKS UMEDA」の西側にある駐輪場②は2022年に駐輪スペースを拡大。より駐輪しやすくなった。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">道路を挟んで向かい側にはグランフロント南館駐輪場（地下）がある。どちらも地下と地上2階の連絡通路で繋がっており、雨の日でも安心だ。うめきた広場③の駐輪場は地階にも駐輪スペースが増え、より駐輪しやすくなった。地上からJR大阪駅の桜橋口に行きやすく、JRを利用して遠出する際にも積極的に利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
-  },
-  {
-    "id": "arc_19_32",
-    "name": "Eco21 梅田駅高架下駐輪場",
-    "lat": 34.7054344,
-    "lng": 135.4983799,
-    "total_capacity": 47,
-    "current_count": 0,
-    "full_probability": 0,
-    "address": "",
-    "parking_type": "ゾーン エリア",
-    "location_landmark": "",
-    "guide_html": ""
-  },
-  {
-    "id": "arc_37_32",
-    "name": "Eco21 梅田駅高架下駐輪場",
-    "lat": 34.7054344,
-    "lng": 135.4983799,
-    "total_capacity": 47,
-    "current_count": 0,
-    "full_probability": 0,
-    "address": "",
-    "parking_type": "ゾーン エリア",
-    "location_landmark": "",
-    "guide_html": ""
   },
   {
     "id": "arc_54_1",
