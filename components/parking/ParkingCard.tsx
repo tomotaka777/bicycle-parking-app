@@ -1,4 +1,4 @@
-import { MapPin, Clock, Navigation, Layers } from "lucide-react";
+import { MapPin, Clock, Navigation, Layers, Banknote } from "lucide-react";
 import StatusBadge from "./StatusBadge";
 import CapacityBar from "./CapacityBar";
 import { calcDistance, formatDistance } from "@/hooks/useUserLocation";
@@ -69,6 +69,12 @@ export default function ParkingCard({ lot, index, userLocation }: ParkingCardPro
           <Navigation className="w-3.5 h-3.5 text-primary" />
           <span className="text-primary font-medium">
             {dist !== null ? `現在地から ${formatDistance(dist)}` : "距離不明"}
+          </span>
+        </div>
+        <div className="flex items-start gap-1.5 col-span-2 mt-1">
+          <Banknote className="w-3.5 h-3.5 text-emerald-600 mt-0.5 shrink-0" />
+          <span className="text-muted-foreground font-medium text-xs break-all">
+            {lot.fee}
           </span>
         </div>
       </div>

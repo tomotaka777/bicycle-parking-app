@@ -10,7 +10,8 @@
     "address": "茶屋町1-32",
     "parking_type": "阪急梅田 ゾーン茶屋町 エリア",
     "location_landmark": "ヤンマー本社ビル前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "6時間毎180円"
   },
   {
     "id": "arc_11_32",
@@ -23,7 +24,8 @@
     "address": "芝田1丁目1−1",
     "parking_type": "阪急梅田 ゾーン茶屋町 エリア",
     "location_landmark": "阪急梅田駅の高架下",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_11_7",
@@ -36,7 +38,8 @@
     "address": "茶屋町1-45　地下1階",
     "parking_type": "阪急梅田 ゾーン茶屋町 エリア",
     "location_landmark": "ローソン茶屋町店前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急梅田駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p01.png\"/>\n<p>①ヤンマー本社ビル前のスクランブル交差点（阪急梅田駅茶屋町口から）</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p02.png\"/>\n<p>②OITタワーの西側から。大阪工業大学梅田キャンパス地下駐輪場へはこの反対側（東側）から入る</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-11/photo_umeda_chayamachi03_p03.png\"/>\n<p>③関西大学梅田キャンパスが入るTSUTAYA BOOKSTORE 梅田MeRISE</p>\n</li>\n</ul>\n<h3>ヤンマー本社ビルや大阪工業大学の地下駐輪場は雨の日も安心</h3>\n<p class=\"caption\">若者向けのショップが集まる茶屋町中心部に立地。阪急三番街へのアクセスや阪急電車を利用して遠出する際にも便利。ユニクロやGUが入るヤンマー本社ビル①には、地下と地上の2ヶ所に駐輪場が設置されている。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">専用エレベーターで降りる地下駐輪場は収容台数が多く、地上と地下ともに屋根付きで雨の日でも安心。「OITタワー」の大阪工業大学梅田キャンパス地下駐輪場②は建物東側に入口があるが、初めて行く人は少しわかりにくいので注意が必要だ。新御堂筋の東側、関西大学梅田キャンパスが入る「TSUTAYA BOOKSTORE 梅田MeRISE」③前は、タイミングによっては空きがあるので一度チェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "24時間毎120円"
   },
   {
     "id": "arc_18_32",
@@ -49,7 +52,8 @@
     "address": "",
     "parking_type": "ゾーン エリア",
     "location_landmark": "",
-    "guide_html": ""
+    "guide_html": "",
+    "fee": "不明１"
   },
   {
     "id": "arc_19_10",
@@ -62,7 +66,8 @@
     "address": "大深町4",
     "parking_type": "阪急梅田 ゾーン芝田町 エリア",
     "location_landmark": "ルクア大阪近く",
-    "guide_html": "<div class=\"guidebox\">\n<h1>大阪駅北 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p01.png\"/>\n<p>①JR大阪駅を含む巨大商業施設「大阪ステーションシティ」すぐ</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p02.jpg\"/>\n<p>②ヨドバシ梅田タワー駐輪場。奥にスペースを拡大</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p03.png\"/>\n<p>③うめきた広場からグランフロント南館</p>\n</li>\n</ul>\n<h3>グランフロント＆ヨドバシカメラ近辺は各線へアクセス抜群</h3>\n<p class=\"caption\">JR大阪駅①をはじめ、阪急大阪梅田駅、地下鉄各線へアクセス良好。どの駐輪場も収容台数が多いため、平日・休日問わず、意外と止めやすい。「ヨドバシマルチメディア梅田」「LINKS UMEDA」の西側にある駐輪場②は2022年に駐輪スペースを拡大。より駐輪しやすくなった。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">道路を挟んで向かい側にはグランフロント南館駐輪場（地下）がある。どちらも地下と地上2階の連絡通路で繋がっており、雨の日でも安心だ。うめきた広場③の駐輪場は地階にも駐輪スペースが増え、より駐輪しやすくなった。地上からJR大阪駅の桜橋口に行きやすく、JRを利用して遠出する際にも積極的に利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>大阪駅北 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p01.png\"/>\n<p>①JR大阪駅を含む巨大商業施設「大阪ステーションシティ」すぐ</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p02.jpg\"/>\n<p>②ヨドバシ梅田タワー駐輪場。奥にスペースを拡大</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p03.png\"/>\n<p>③うめきた広場からグランフロント南館</p>\n</li>\n</ul>\n<h3>グランフロント＆ヨドバシカメラ近辺は各線へアクセス抜群</h3>\n<p class=\"caption\">JR大阪駅①をはじめ、阪急大阪梅田駅、地下鉄各線へアクセス良好。どの駐輪場も収容台数が多いため、平日・休日問わず、意外と止めやすい。「ヨドバシマルチメディア梅田」「LINKS UMEDA」の西側にある駐輪場②は2022年に駐輪スペースを拡大。より駐輪しやすくなった。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">道路を挟んで向かい側にはグランフロント南館駐輪場（地下）がある。どちらも地下と地上2階の連絡通路で繋がっており、雨の日でも安心だ。うめきた広場③の駐輪場は地階にも駐輪スペースが増え、より駐輪しやすくなった。地上からJR大阪駅の桜橋口に行きやすく、JRを利用して遠出する際にも積極的に利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "12時間毎150円"
   },
   {
     "id": "arc_19_16",
@@ -75,7 +80,8 @@
     "address": "芝田2丁目3-5",
     "parking_type": "阪急梅田 ゾーン芝田町 エリア",
     "location_landmark": "大深町4-20　地下1階",
-    "guide_html": "<div class=\"guidebox\">\n<h1>大阪駅北 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p01.png\"/>\n<p>①JR大阪駅を含む巨大商業施設「大阪ステーションシティ」すぐ</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p02.jpg\"/>\n<p>②ヨドバシ梅田タワー駐輪場。奥にスペースを拡大</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p03.png\"/>\n<p>③うめきた広場からグランフロント南館</p>\n</li>\n</ul>\n<h3>グランフロント＆ヨドバシカメラ近辺は各線へアクセス抜群</h3>\n<p class=\"caption\">JR大阪駅①をはじめ、阪急大阪梅田駅、地下鉄各線へアクセス良好。どの駐輪場も収容台数が多いため、平日・休日問わず、意外と止めやすい。「ヨドバシマルチメディア梅田」「LINKS UMEDA」の西側にある駐輪場②は2022年に駐輪スペースを拡大。より駐輪しやすくなった。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">道路を挟んで向かい側にはグランフロント南館駐輪場（地下）がある。どちらも地下と地上2階の連絡通路で繋がっており、雨の日でも安心だ。うめきた広場③の駐輪場は地階にも駐輪スペースが増え、より駐輪しやすくなった。地上からJR大阪駅の桜橋口に行きやすく、JRを利用して遠出する際にも積極的に利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>大阪駅北 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p01.png\"/>\n<p>①JR大阪駅を含む巨大商業施設「大阪ステーションシティ」すぐ</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p02.jpg\"/>\n<p>②ヨドバシ梅田タワー駐輪場。奥にスペースを拡大</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-19/photo_umeda_shibatacho02_p03.png\"/>\n<p>③うめきた広場からグランフロント南館</p>\n</li>\n</ul>\n<h3>グランフロント＆ヨドバシカメラ近辺は各線へアクセス抜群</h3>\n<p class=\"caption\">JR大阪駅①をはじめ、阪急大阪梅田駅、地下鉄各線へアクセス良好。どの駐輪場も収容台数が多いため、平日・休日問わず、意外と止めやすい。「ヨドバシマルチメディア梅田」「LINKS UMEDA」の西側にある駐輪場②は2022年に駐輪スペースを拡大。より駐輪しやすくなった。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">道路を挟んで向かい側にはグランフロント南館駐輪場（地下）がある。どちらも地下と地上2階の連絡通路で繋がっており、雨の日でも安心だ。うめきた広場③の駐輪場は地階にも駐輪スペースが増え、より駐輪しやすくなった。地上からJR大阪駅の桜橋口に行きやすく、JRを利用して遠出する際にも積極的に利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "4時間毎100円"
   },
   {
     "id": "arc_54_1",
@@ -88,7 +94,8 @@
     "address": "天神橋7丁目2-10",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "天神橋六丁目交差点前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_54_2",
@@ -101,7 +108,8 @@
     "address": "天神橋7丁目2-8",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "天神橋筋六丁目交差点前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 24時間毎150円"
   },
   {
     "id": "arc_54_3",
@@ -114,7 +122,8 @@
     "address": "天神橋6丁目7-5",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "天神橋筋六丁目駅周辺の駐輪場",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 24時間毎150円"
   },
   {
     "id": "arc_54_4",
@@ -127,7 +136,8 @@
     "address": "天神橋4丁目9-6",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_54_5",
@@ -140,7 +150,8 @@
     "address": "天神橋6丁目6-8",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "天神橋筋六丁目交差点前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>天六駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p01.jpg\"/>\n<p>①交通量が多い天神橋筋と都島通の天神橋6交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p02.jpg\"/>\n<p>②マツモトキヨシの前にある駐輪場。原付も駐輪可</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-54/photo_temma_temmarahen01_p03.jpg\"/>\n<p>③ジオタワー天六B駐輪場。収容台数も多く、急な雨でも安心</p>\n</li>\n</ul>\n<h3>にぎやかな天神橋筋商店街六丁目すぐ</h3>\n<p class=\"caption\">天神橋筋と都島通の天神橋6交差点周辺に点在。飲食店が連なる天神橋筋商店街六丁目の北側入口すぐだ。どの駐輪場も大阪メトロ堺筋線・谷町線、阪急千里線の3路線が乗り入れる地下鉄天神橋六丁目駅出口近くで、大阪市内や吹田・守口方面への電車移動にも便利がいい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">マツモトキヨシ前にある駐輪場②が一番広く、停めやすい。TSUTAYA前には管理事務所があり、一時駐輪できるスペースも充実②。阪急オアシスが入るジオタワー天六東側2箇所にも駐輪場を設置。地上は台数が少なめだが、地下駐輪場③は収容台数も多くて止めやすい。天神橋筋、都島通ともに交通量が多いため、運転の際には普段以上に注意が必要だ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_55_1",
@@ -179,7 +190,8 @@
     "address": "天神橋3丁目11-15",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "扇町駅近く",
-    "guide_html": "<div class=\"guidebox\">\n<h1>扇町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p01.jpg\"/>\n<p>①阪神高速高架下の駐輪場。奥に天神橋筋4丁目入口が見える</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p02.jpg\"/>\n<p>②扇町公園の南側、扇町地下道出入口すぐの駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p03.jpg\"/>\n<p>③天神橋筋と扇町通の交差点より扇町公園方面</p>\n</li>\n</ul>\n<h3>ゆったり止められる阪神高速高架下</h3>\n<p class=\"caption\">阪神高速高架下の駐輪場は、天神橋筋商店街3丁目と4丁目がつながる交差点すぐ①。スペース・駐輪台数ともに多いので、ゆったりと止めやすい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">扇町地下道（堺筋線連絡通路）出入口すぐの駐輪場②は、やや目立たない場所にある穴場。駐輪台数は少ないが、どの時間でも比較的止めやすい。どちらの駐輪場も高速出口が近く、日中は大型車などで混み合うため③、運転の際には注意。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>扇町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p01.jpg\"/>\n<p>①阪神高速高架下の駐輪場。奥に天神橋筋4丁目入口が見える</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p02.jpg\"/>\n<p>②扇町公園の南側、扇町地下道出入口すぐの駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p03.jpg\"/>\n<p>③天神橋筋と扇町通の交差点より扇町公園方面</p>\n</li>\n</ul>\n<h3>ゆったり止められる阪神高速高架下</h3>\n<p class=\"caption\">阪神高速高架下の駐輪場は、天神橋筋商店街3丁目と4丁目がつながる交差点すぐ①。スペース・駐輪台数ともに多いので、ゆったりと止めやすい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">扇町地下道（堺筋線連絡通路）出入口すぐの駐輪場②は、やや目立たない場所にある穴場。駐輪台数は少ないが、どの時間でも比較的止めやすい。どちらの駐輪場も高速出口が近く、日中は大型車などで混み合うため③、運転の際には注意。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 24時間毎150円"
   },
   {
     "id": "arc_56_5",
@@ -192,7 +204,8 @@
     "address": "天神橋4丁目9-6",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "北区役所近く",
-    "guide_html": "<div class=\"guidebox\">\n<h1>扇町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p01.jpg\"/>\n<p>①阪神高速高架下の駐輪場。奥に天神橋筋4丁目入口が見える</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p02.jpg\"/>\n<p>②扇町公園の南側、扇町地下道出入口すぐの駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p03.jpg\"/>\n<p>③天神橋筋と扇町通の交差点より扇町公園方面</p>\n</li>\n</ul>\n<h3>ゆったり止められる阪神高速高架下</h3>\n<p class=\"caption\">阪神高速高架下の駐輪場は、天神橋筋商店街3丁目と4丁目がつながる交差点すぐ①。スペース・駐輪台数ともに多いので、ゆったりと止めやすい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">扇町地下道（堺筋線連絡通路）出入口すぐの駐輪場②は、やや目立たない場所にある穴場。駐輪台数は少ないが、どの時間でも比較的止めやすい。どちらの駐輪場も高速出口が近く、日中は大型車などで混み合うため③、運転の際には注意。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>扇町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p01.jpg\"/>\n<p>①阪神高速高架下の駐輪場。奥に天神橋筋4丁目入口が見える</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p02.jpg\"/>\n<p>②扇町公園の南側、扇町地下道出入口すぐの駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-56/photo_temma_temmarahen03_p03.jpg\"/>\n<p>③天神橋筋と扇町通の交差点より扇町公園方面</p>\n</li>\n</ul>\n<h3>ゆったり止められる阪神高速高架下</h3>\n<p class=\"caption\">阪神高速高架下の駐輪場は、天神橋筋商店街3丁目と4丁目がつながる交差点すぐ①。スペース・駐輪台数ともに多いので、ゆったりと止めやすい。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">扇町地下道（堺筋線連絡通路）出入口すぐの駐輪場②は、やや目立たない場所にある穴場。駐輪台数は少ないが、どの時間でも比較的止めやすい。どちらの駐輪場も高速出口が近く、日中は大型車などで混み合うため③、運転の際には注意。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_57_1",
@@ -205,7 +218,8 @@
     "address": "天神橋2丁目北2-6",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "大阪メトロ南森町駅前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 24時間毎150円"
   },
   {
     "id": "arc_57_2",
@@ -218,7 +232,8 @@
     "address": "南森町2丁目1-29",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "三井住友銀行南森町ビル前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 24時間毎150円"
   },
   {
     "id": "arc_57_3",
@@ -231,7 +246,8 @@
     "address": "南森町2丁目1-4",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "三井住友銀行南森町ビル前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>南森町駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p01.jpg\"/>\n<p>①天神橋筋沿い東側、りそな銀行前に駐輪場を増設</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p02.jpg\"/>\n<p>②天神橋筋沿い西側、三井住友銀行前に増設された駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-57/photo_temma_temmarahen04_p03.jpg\"/>\n<p>③阪神高速高架下の駐輪場。原付バイクは手前、自転車は奥に止められる</p>\n</li>\n</ul>\n<h3>南森町交差点周辺と阪神高速高架下に立地</h3>\n<p class=\"caption\">広範囲に点在するが、一時利用できる場所は3か所のみなのでご注意を。人気の南森町交差点付近は天神橋筋を挟んだ東西、「りそな銀行」「三井住友銀行」の前にそれぞれ立地①②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">2022年には駐輪スペースが増設され、日中も以前より止めやすくなった。阪神高速高架下の駐輪場③は、なにわ北府税事務所の東側にある。駐輪場入口は狭いがスペースは広々、原付バイクも止められる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_58_1",
@@ -244,7 +260,8 @@
     "address": "中津1-6",
     "parking_type": "中津・中崎町 ゾーン中津 エリア",
     "location_landmark": "地下鉄津中津駅南交差点近く",
-    "guide_html": "<div class=\"guidebox\">\n<h1>地下鉄中津駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p01.jpg\"/>\n<p>①地下鉄中津駅1番出口前の交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p02.jpg\"/>\n<p>②国道176号高架下の駐輪場。写真左の建物が済生会中津病院</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p03.jpg\"/>\n<p>③管理事務所がある阪急京都線中津駅周辺高架下</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p04.jpg\"/>\n<p>④豊崎西公園南側、歩行者道路脇が駐輪スペース</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p05.jpg\"/>\n<p>⑤地下鉄中津駅5番出口すぐ。城北公園通沿いに設置された駐輪場</p>\n</li>\n</ul>\n<h3>済生会中津病院や茶屋町エリアすぐ</h3>\n<p class=\"caption\">地下鉄中津駅の城北公園通沿いを中心に南北に立地①。済生会中津病院の東側、国道176号高架下駐輪場②は、どの時間帯でも停めやすく、原付バイク用の駐輪スペースもあり。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">茶屋町エリアの「梅田芸術劇場」「ホテル阪急インターナショナル」が入居するアプローズタワーもすぐ。管理事務所がある阪急京都線高架下の駐輪場③は「OSAKA FOOD LAB」の西側にある。一方、タコの遊具が目印の豊崎西公園南側④は地下鉄中津駅1番出口が近く、電車利用の際にもおすすめ。また、5番出口付近にも駐輪場を新設⑤。どちらも駅すぐのため混雑率は高めだが、平日昼間は比較的空いているためチェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>地下鉄中津駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p01.jpg\"/>\n<p>①地下鉄中津駅1番出口前の交差点</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p02.jpg\"/>\n<p>②国道176号高架下の駐輪場。写真左の建物が済生会中津病院</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p03.jpg\"/>\n<p>③管理事務所がある阪急京都線中津駅周辺高架下</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p04.jpg\"/>\n<p>④豊崎西公園南側、歩行者道路脇が駐輪スペース</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-58/photo_nakatsu_nakatsurahen01_p05.jpg\"/>\n<p>⑤地下鉄中津駅5番出口すぐ。城北公園通沿いに設置された駐輪場</p>\n</li>\n</ul>\n<h3>済生会中津病院や茶屋町エリアすぐ</h3>\n<p class=\"caption\">地下鉄中津駅の城北公園通沿いを中心に南北に立地①。済生会中津病院の東側、国道176号高架下駐輪場②は、どの時間帯でも停めやすく、原付バイク用の駐輪スペースもあり。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">茶屋町エリアの「梅田芸術劇場」「ホテル阪急インターナショナル」が入居するアプローズタワーもすぐ。管理事務所がある阪急京都線高架下の駐輪場③は「OSAKA FOOD LAB」の西側にある。一方、タコの遊具が目印の豊崎西公園南側④は地下鉄中津駅1番出口が近く、電車利用の際にもおすすめ。また、5番出口付近にも駐輪場を新設⑤。どちらも駅すぐのため混雑率は高めだが、平日昼間は比較的空いているためチェックしてみよう。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "不明"
   },
   {
     "id": "arc_58_7",
@@ -257,7 +274,8 @@
     "address": "",
     "parking_type": "ゾーン エリア",
     "location_landmark": "",
-    "guide_html": ""
+    "guide_html": "",
+    "fee": "不明"
   },
   {
     "id": "dojima_12001",
@@ -348,7 +366,8 @@
     "address": "梅田1-1-3",
     "parking_type": "大阪駅前・堂島 ゾーン大阪駅前ビル エリア",
     "location_landmark": "駅前第3ビル南西側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>第1〜第3ビルR2沿い <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p01.jpg\"/>\n<p>①国道2号線沿いに点在する駐輪場［10］</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p02.jpg\"/>\n<p>②JR北新地駅への連絡用エレベーターも近い</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p03.jpg\"/>\n<p>③阪神高速道路の高架下にあり雨でも安心［8-B］</p>\n</li>\n</ul>\n<h3>大阪駅ビル周辺は休日も停めやすいのが魅力</h3>\n<p class=\"caption\">国道2号線沿いを中心に、大阪駅前第1ビル東側から大阪駅前第3ビル西側周辺に点在①、オフィス街のため週末など休日は狙い目だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">地下の飲食店街や北新地の歓楽街はもちろん、地下街へ続くエレベーター出入口も近く②、JR北新地駅へもすぐアクセスできる。阪神高速道路高架下にも駐輪スペース③があり、天気の悪い日でも安心だ。JR大阪駅周辺へも徒歩圏内なので、梅田界隈でのショッピングにも利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>第1〜第3ビルR2沿い <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p01.jpg\"/>\n<p>①国道2号線沿いに点在する駐輪場［10］</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p02.jpg\"/>\n<p>②JR北新地駅への連絡用エレベーターも近い</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-36/photo_dojima_building03_p03.jpg\"/>\n<p>③阪神高速道路の高架下にあり雨でも安心［8-B］</p>\n</li>\n</ul>\n<h3>大阪駅ビル周辺は休日も停めやすいのが魅力</h3>\n<p class=\"caption\">国道2号線沿いを中心に、大阪駅前第1ビル東側から大阪駅前第3ビル西側周辺に点在①、オフィス街のため週末など休日は狙い目だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">地下の飲食店街や北新地の歓楽街はもちろん、地下街へ続くエレベーター出入口も近く②、JR北新地駅へもすぐアクセスできる。阪神高速道路高架下にも駐輪スペース③があり、天気の悪い日でも安心だ。JR大阪駅周辺へも徒歩圏内なので、梅田界隈でのショッピングにも利用したい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 1時間を超え24時間まで150円、以後24時間ごとに150円。※一部、1日1回150円の場所があります。"
   },
   {
     "id": "dojima_31001",
@@ -491,7 +510,8 @@
     "address": "中之島6",
     "parking_type": "中之島 ゾーン北浜・肥後橋・中之島 エリア",
     "location_landmark": "",
-    "guide_html": "<div class=\"guidebox\">\n<h1>堂島大橋 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-53/photo_nakanoshima_nakanoshimarahen03_p01.jpg\"/>\n<p>①緑あふれる堂島大橋南詰西側の駐輪場。写真右の建物が阪急オアシス</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-53/photo_nakanoshima_nakanoshimarahen03_p02.jpg\"/>\n<p>②堂島大橋南詰より大阪府立国際会議場（グランキューブ大阪）。写真左に中之島バンクスの入口が見える</p>\n</li>\n</ul>\n<h3>グランキューブ大阪へは交差点を渡ればすぐ</h3>\n<p class=\"caption\">堂島大橋の南詰西側、大川沿いに並ぶ駐輪場①。目の前には阪急オアシスがあり、大阪府立国際会議場（グランキューブ大阪）をはじめ、カフェやレストラン、アウトドアショップが並ぶNAKANOSHIMA BANKSもすぐだ②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">駐輪場は緑に囲まれた空間で、日中は穏やかな雰囲気。夜はライトアップされた堂島大橋の美しい姿を楽しむことができる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>堂島大橋 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-53/photo_nakanoshima_nakanoshimarahen03_p01.jpg\"/>\n<p>①緑あふれる堂島大橋南詰西側の駐輪場。写真右の建物が阪急オアシス</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-53/photo_nakanoshima_nakanoshimarahen03_p02.jpg\"/>\n<p>②堂島大橋南詰より大阪府立国際会議場（グランキューブ大阪）。写真左に中之島バンクスの入口が見える</p>\n</li>\n</ul>\n<h3>グランキューブ大阪へは交差点を渡ればすぐ</h3>\n<p class=\"caption\">堂島大橋の南詰西側、大川沿いに並ぶ駐輪場①。目の前には阪急オアシスがあり、大阪府立国際会議場（グランキューブ大阪）をはじめ、カフェやレストラン、アウトドアショップが並ぶNAKANOSHIMA BANKSもすぐだ②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">駐輪場は緑に囲まれた空間で、日中は穏やかな雰囲気。夜はライトアップされた堂島大橋の美しい姿を楽しむことができる。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 1時間を超え24時間まで150円、以後24時間ごとに150円。※一部、1日1回150円の場所があります。"
   },
   {
     "id": "umeda_12006",
@@ -530,7 +550,8 @@
     "address": "堂山町3付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "太融寺交差点近く　扇町通北側\r\nドトールコーヒーショップ東梅田店前",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_32002",
@@ -543,7 +564,8 @@
     "address": "太融寺町5付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "大阪商工信用金庫前　扇町通南側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_32003",
@@ -556,7 +578,8 @@
     "address": "太融寺町6付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "デイリーヤマザキ梅田太融寺店前\r\n扇町通南側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>阪急東通 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p02.png\"/>\n<p>①カフェやリーズナブルなホテルが並ぶ扇町通</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p01.png\"/>\n<p>②プラザ梅田ビル角にあるホワイティうめだ「泉の広場M14番出口」</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-17/photo_umeda_ogimachi02_p03.png\"/>\n<p>③飲食店が連なる「阪急東通商店街」（扇町通の日本生命梅田ビルから）</p>\n</li>\n</ul>\n<h3>キタの大歓楽街にも近いオフィス街の駐輪場</h3>\n<p class=\"caption\">新御堂筋の西側、カジュアルなカフェや飲食店、ホテルが並ぶ扇町通①の歩道沿いに点在。地下街「ホワイティうめだ」への入口②が近いため、梅田中心部への移動も快適だ。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">北側には飲食店が連なる大歓楽街「阪急東通商店街」③があるが、日中はオフィス街としての雰囲気が強く、比較的落ち着いている。ただし人通りが多いため、自転車での走行や駐輪の際には注意が必要。収容台数は少なめで平日は混雑しているが回転率は高い。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_33003",
@@ -569,7 +592,8 @@
     "address": "神山町8付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "神山交差点近く　松屋 梅田神山町店前\r\n扇町通北側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_33004",
@@ -582,7 +606,8 @@
     "address": "太融寺町2付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "大原簿記法律専門学校　梅田校近く\r\n扇町通南側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_33005",
@@ -595,7 +620,8 @@
     "address": "太融寺町3付近",
     "parking_type": "阪急梅田 ゾーン扇町通 エリア",
     "location_landmark": "セブンイレブン梅田神山西店前\r\n扇町通南側",
-    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
+    "guide_html": "<div class=\"guidebox\">\n<h1>太融寺 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p01.png\"/>\n<p>①神山町交差点の北西角から南を。読売新聞社も近い</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p02.png\"/>\n<p>②扇町通の南側には太融寺の広い境内が面している</p>\n</li>\n<li>\n<img src=\"/churinjo/files/category-20/photo_umeda_ogimachi03_p03.png\"/>\n<p>③ビジネスホテルが点在する扇町通北側</p>\n</li>\n</ul>\n<h3>回転率が高く短時間利用におすすめ</h3>\n<p class=\"caption\">オフィスビルが立ち並ぶ神山町交差点近辺①は、道幅も広く駐輪しやすい。太融寺②の西側に広がる駐輪場は、コンビニなど短時間のみの利用者が多いので、時間帯問わず駐輪できるタイミングが多い。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">梅田東界隈の繁華街に向かって人通りが多くなるので、自転車の走行には注意が必要。ビジネスホテルが点在する北側③にはファストフード店が多く、短時間駐車したい場合にもおすすめだ。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>",
+    "fee": "※台数は扇町通 6-Bと共通\n最初の１時間無料 / 入庫後24時間150円 / 24時間ごと150円"
   },
   {
     "id": "umeda_41001",

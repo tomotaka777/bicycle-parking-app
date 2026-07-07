@@ -44,7 +44,7 @@ const osakaLots: BicycleParkingLot[] = osakaLotsRaw
   location_landmark: lot.location_landmark || "",
   guide_html: lot.guide_html || "",
   operating_hours: "24時間", // Default, as API does not provide
-  fee: "料金不明（現地確認）", // Default, as API does not provide
+  fee: lot.fee || "料金不明（現地確認）",
   updated_date: new Date().toISOString()
 }));
 
