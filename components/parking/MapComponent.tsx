@@ -131,7 +131,7 @@ export default function MapComponent({ lots, userLocation }: MapComponentProps) 
                 </div>
                 <CapacityBar current={lot.current_count} total={lot.total_capacity} />
                 <p className="text-xs text-muted-foreground mt-3 pt-2 border-t">{lot.address}</p>
-                <p className="text-xs text-muted-foreground mt-1">💰 {lot.fee}</p>
+                <p className="text-xs text-muted-foreground mt-1"><span className="font-medium px-1 border border-primary/30 rounded text-primary/80 mr-1">料金</span>{lot.fee}</p>
                 {dist !== null && (
                   <p className="text-xs font-medium text-primary mt-1">
                     📍 現在地から {formatDistance(dist)}
