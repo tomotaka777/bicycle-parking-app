@@ -79,7 +79,7 @@
   },
   {
     "id": "arc_54_1",
-    "name": "扇町・天満K",
+    "name": "扇町駅・天満駅自転車駐車場　一時利用1",
     "lat": 34.7043748,
     "lng": 135.5130151,
     "total_capacity": 28,
@@ -92,7 +92,7 @@
   },
   {
     "id": "arc_54_2",
-    "name": "天六Q",
+    "name": "天神橋筋六丁目駅自転車駐車場　一時利用2",
     "lat": 34.71144,
     "lng": 135.5110349,
     "total_capacity": 21,
@@ -118,7 +118,7 @@
   },
   {
     "id": "arc_54_4",
-    "name": "地下鉄中津駅管理駐輪場",
+    "name": "天神橋筋六丁目駅自転車駐車場　一時利用4",
     "lat": 34.709241,
     "lng": 135.5108988,
     "total_capacity": 35,
@@ -153,19 +153,6 @@
     "address": "錦町1-49",
     "parking_type": "天満 ゾーン天満 エリア",
     "location_landmark": "天満駅近く",
-    "guide_html": "<div class=\"guidebox\">\n<h1>天満駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p01.jpg\"/>\n<p>①区役所・北区民センター隣にある駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p02.jpg\"/>\n<p>②天満駅前の駐輪場は収容台数も多く、駐輪しやすくなった</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p03.jpg\"/>\n<p>③ドンキホーテ前に高架沿いに設置された駐輪場</p>\n</li>\n</ul>\n<h3>大阪環状線高架下は雨の日も安心</h3>\n<p class=\"caption\">JR天満駅を中心に東西に点在。東側は北区役所・北区民センターの隣にあり①、日中は混雑していることが多い。天満駅北側には、コンビニ横に新たに駐輪場が設置され、駅前に停めやすくなったのがうれしい②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">また、大阪環状線高架下やドンキホーテ近くの駐輪場なら雨の日も濡れずに利用可。特に北側のスペースにも駐輪場が拡充された③。どの時間帯でも停めやすいため、天満駅周辺ならまずこちらをチェックするのがおすすめ。天神橋筋商店街はもちろん、桜ノ宮駅方面の天満年金事務所へもアクセスがいい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
-  },
-  {
-    "id": "arc_55_5",
-    "name": "東1",
-    "lat": 34.7054515,
-    "lng": 135.5107368,
-    "total_capacity": 28,
-    "current_count": 0,
-    "full_probability": 0,
-    "address": "天神橋4丁目9-6",
-    "parking_type": "天満 ゾーン天満 エリア",
-    "location_landmark": "大阪市北区役所近く",
     "guide_html": "<div class=\"guidebox\">\n<h1>天満駅 <br class=\"sp\"/>ブロック について</h1>\n<ul class=\"slide\">\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p01.jpg\"/>\n<p>①区役所・北区民センター隣にある駐輪場</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p02.jpg\"/>\n<p>②天満駅前の駐輪場は収容台数も多く、駐輪しやすくなった</p>\n</li>\n<li>\n<img alt=\"photo\" src=\"/churinjo/files/category-55/photo_temma_temmarahen02_p03.jpg\"/>\n<p>③ドンキホーテ前に高架沿いに設置された駐輪場</p>\n</li>\n</ul>\n<h3>大阪環状線高架下は雨の日も安心</h3>\n<p class=\"caption\">JR天満駅を中心に東西に点在。東側は北区役所・北区民センターの隣にあり①、日中は混雑していることが多い。天満駅北側には、コンビニ横に新たに駐輪場が設置され、駅前に停めやすくなったのがうれしい②。<a class=\"readmore\" href=\"javascript:void(0)\">...［続きを読む］</a></p>\n<p class=\"more\">また、大阪環状線高架下やドンキホーテ近くの駐輪場なら雨の日も濡れずに利用可。特に北側のスペースにも駐輪場が拡充された③。どの時間帯でも停めやすいため、天満駅周辺ならまずこちらをチェックするのがおすすめ。天神橋筋商店街はもちろん、桜ノ宮駅方面の天満年金事務所へもアクセスがいい。<a class=\"close\" href=\"javascript:void(0)\">...［閉じる］</a></p>\n</div>"
   },
   {
@@ -235,7 +222,7 @@
   },
   {
     "id": "arc_57_3",
-    "name": "大阪天満宮駅・南森町駅自転車駐車場　一時利用3",
+    "name": "大阪天満宮駅・南森町駅自転車駐車場　一時利用2",
     "lat": 34.697366,
     "lng": 135.511322,
     "total_capacity": 23,
