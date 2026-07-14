@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import { BicycleParkingLot } from "@/lib/firebaseClient";
 import { getAvailabilityStatus } from "./StatusBadge";
 import { Bike, CheckCircle2, AlertCircle, XCircle } from "lucide-react";

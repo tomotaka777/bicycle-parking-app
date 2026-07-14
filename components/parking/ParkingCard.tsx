@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import { MapPin, Clock, Navigation, Layers, Banknote } from "lucide-react";
 import StatusBadge from "./StatusBadge";
 import CapacityBar from "./CapacityBar";

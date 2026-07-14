@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import osakaLotsRaw from '../data/osaka_lots.json';
 
 export interface BicycleParkingLot {

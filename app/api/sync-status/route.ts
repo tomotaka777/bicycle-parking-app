@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import { NextResponse } from 'next/server';
 import * as xlsx from 'xlsx';
 

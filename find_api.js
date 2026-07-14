@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 const https = require('https');
 
 https.get('https://osakakitakumap.net/churinjo/viewer/viewer.js', (res) => {

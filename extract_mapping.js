@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 const fs = require('fs');
 const content = fs.readFileSync('C:\\Users\\ok230176\\.gemini\\antigravity\\brain\\8a29b90e-96b8-4f37-92a5-1821c3db3af7\\.system_generated\\steps\\31\\content.md', 'utf-8');
 

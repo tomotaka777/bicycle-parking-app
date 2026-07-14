@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {

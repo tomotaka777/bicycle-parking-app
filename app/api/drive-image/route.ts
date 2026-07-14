@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2026 水谷知隆
+ * Released under the MIT License.
+ */
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(request: NextRequest) {
